@@ -1,0 +1,26 @@
+@import url("Header.css");
+@import url("Nav.css");
+
+@font-face {
+  font-family: "arialMT";
+  src: url("../fonts/ARIALMT.ttf");
+}
+
+@font-face {
+  font-family: "openSans-Extrabold";
+  src: url("../fonts/OpenSans-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: "regular";
+  src: url("../fonts/FontRegular.ttf");
+}
+
+@font-face {
+  font-family: "semibold";
+  src: url("../fonts/Altform SemiBold.ttf");
+}
+
+.slider img {
+  width: 100%;
+}

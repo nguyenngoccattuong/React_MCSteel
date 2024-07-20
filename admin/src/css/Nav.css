@@ -1,0 +1,30 @@
+.nav {
+  background-color: black;
+}
+
+.navMenu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navMenu ul li {
+  display: inline-block;
+}
+
+.navMenu ul li.active a {
+  background-color: gray;
+}
+
+.navMenu ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: "arialMT";
+  font-size: 13px;
+  padding: 15px 25px;
+  text-transform: uppercase;
+  display: block;
+}
+
+.navMenu ul li a:hover {
+  background-color: gray;
+}

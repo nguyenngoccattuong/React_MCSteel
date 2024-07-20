@@ -1,0 +1,169 @@
+/* Main left */
+.aside__category {
+  margin-bottom: 15px;
+}
+
+.asideCategory__title {
+  background-color: #3b84b0;
+  color: white;
+  padding: 10px;
+}
+
+.asideCategoryTitle__heading h3 {
+  font-family: "arialMT";
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 16px;
+  padding-left: 22px;
+}
+
+.asideCategory__list ul {
+  margin: 0;
+  padding: 0;
+}
+
+.asideCategory__list ul li {
+  list-style: none;
+  text-transform: uppercase;
+  font-family: "arialMT";
+}
+
+.asideCategory__list ul li a {
+  text-decoration: none;
+  color: #444444;
+  padding: 12px;
+  display: block;
+  background-color: #f2f1f1;
+  border-bottom: 1px solid white;
+  font-size: 13px;
+}
+
+.asideCategory__list ul li a:hover {
+  background-color: #464a51;
+  color: white;
+}
+
+.asideBestSeller__title {
+  background-color: #3b84b0;
+  color: white;
+  padding: 10px;
+}
+
+.asideBestSellerTitle__heading h3 {
+  font-family: "arialMT";
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 16px;
+  padding-left: 22px;
+}
+
+.asideBestSeller__list {
+  background-color: #f2f1f1;
+  padding: 10px;
+}
+
+.asideBestSellerList__products {
+  border-bottom: 1px solid gray;
+  margin-bottom: 15px;
+}
+
+.asideBestSellerListProducts__img img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.asideBestSellerList__products h4 {
+  font-family: "arialMT";
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 15px 0;
+}
+
+.asideBestSellerList__products:last-child {
+  margin-bottom: 0;
+}
+
+/* Main right */
+.slider img {
+  width: 100%;
+}
+
+.content h1 {
+  color: #fe2121;
+  text-transform: uppercase;
+  font-family: "openSans-Extrabold";
+  font-size: 30px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.content p {
+  text-align: justify;
+  font-size: 15px;
+  font-family: "arialMT";
+  /* dãn dòng */
+  line-height: 25px;
+}
+
+.content p a {
+  color: #438aff;
+}
+
+.content p span {
+  color: #fe2121;
+}
+
+.productHome__title {
+  background-color: #222326;
+}
+
+.productHomeTitle__heading {
+  background-color: #3b84b0;
+  width: 30%;
+  color: white;
+  text-transform: uppercase;
+  padding: 13px;
+  clip-path: polygon(0 0, 91% 0, 100% 100%, 0% 100%);
+}
+
+.productHomeTitle__heading h2 {
+  font-size: 16px;
+  font-family: "openSans-Extrabold";
+  margin: 0;
+}
+
+.productHomeTitle_link {
+  width: 70%;
+  text-align: right;
+  padding: 10px;
+}
+
+.productHomeTitle_link a {
+  color: white;
+  font-size: 12px;
+  font-family: "arialMT";
+}
+
+.productHome__list {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+}
+
+.product {
+  margin-top: 30px;
+}
+
+.product__img img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+.product h3 {
+  background-color: #222326;
+  color: white;
+  font-family: "arialMT";
+  font-size: 15px;
+  padding: 15px;
+  margin: 0;
+}
