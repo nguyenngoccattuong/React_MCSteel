@@ -1,0 +1,166 @@
+.footer {
+  margin-top: 45px;
+}
+
+.footer__top {
+  background-color: #222326;
+}
+
+.footerTop__aboutUs {
+  /* width: 30%; */
+  margin-right: 70px;
+}
+
+.footerTop__aboutUs h3 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: "openSans-Extrabold";
+}
+
+.footerTop__aboutUs p {
+  color: white;
+  font-size: 12px;
+  font-family: "arialMT";
+  line-height: 25px;
+}
+
+.footerTopAboutUs__info {
+}
+
+.footerTopAboutUs__info ul {
+  color: white;
+  font-size: 13px;
+  font-family: "arialMT";
+  line-height: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.footerTopAboutUs__info ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.footerTopAboutUs__info ul li span {
+  display: block;
+}
+
+.footerTopAboutUs__info ul li span:first-child {
+  padding: 10px 20px 10px 0;
+  color: #faca00;
+  font-size: 20px;
+}
+
+.footerTopAboutUs__info ul li:last-child span:first-child {
+  padding-right: 15px;
+}
+
+.footerTopAboutUs__img {
+  padding-bottom: 5px;
+}
+
+.footerTopAboutUs__img img {
+  width: 55%;
+}
+
+.footerTop__siteMaps h4 {
+  color: white;
+  font-size: 22px;
+  font-family: "openSans-Extrabold";
+}
+
+.footerTopSiteMaps__list ul {
+  color: white;
+  font-size: 12px;
+  font-family: "arialMT";
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.footerTopSiteMaps__list ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.footerTopSiteMaps__list ul li::before {
+  content: "\A";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #fbca00;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+/* .footerTop__product {
+  width: 25%;
+} */
+
+.footerTop__product h4 {
+  color: white;
+  font-size: 22px;
+  font-family: "openSans-Extrabold";
+}
+
+.footerTopProduct__list ul {
+  color: white;
+  font-size: 13px;
+  font-family: "arialMT";
+  line-height: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.footerTopProduct__list ul li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.footerTopProduct__list ul li::before {
+  content: "\A";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #fbca00;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+/* .footerTop__fanpage {
+  width: 30%;
+} */
+
+.footerTop__fanpage h4 {
+  color: white;
+  font-size: 22px;
+  font-family: "openSans-Extrabold";
+}
+
+.footerTopFanpage__img img {
+  width: 100%;
+}
+
+.footer__bottom {
+  background-color: #1a1c1f;
+  padding: 25px;
+}
+
+.footerBottom__left {
+  /* width: 70%; */
+  color: white;
+  font-size: 13px;
+  font-family: "arialMT";
+}
+
+.footerBottom__right {
+  /* width: 30%; */
+  color: white;
+  text-align: right;
+  font-size: 13px;
+  font-family: "arialMT";
+}

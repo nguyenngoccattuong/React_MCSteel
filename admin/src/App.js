@@ -1,6 +1,7 @@
 import Header from "./container/Header";
 import Nav from "./container/Nav";
 import Main from "./container/Main";
+import Footer from "./container/Footer";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Nav />
       <Main />
+      <Footer />
     </div>
   );
 }
