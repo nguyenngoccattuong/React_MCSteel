@@ -11,7 +11,7 @@ function Nav(params) {
     <nav class="nav">
       <Container>
         <Row>
-          <Col sm={11}>
+          <Col sm={8}>
             <div class="navMenu">
               <ul>
                 <li class="active">
@@ -36,16 +36,18 @@ function Nav(params) {
             </div>
           </Col>
 
-          <Col sm={1}>
-            <Form className="d-flex">
-              <Form.Control
-                type="search"
-                placeholder="Search"
-                className="me-2"
-                aria-label="Search"
-              />
-              <Button variant="outline-success">Search</Button>
-            </Form>
+          <Col sm={4}>
+            <div class="mt-1">
+              <Form className="d-flex">
+                <Form.Control
+                  type="search"
+                  placeholder="Search"
+                  className="me-2"
+                  aria-label="Search"
+                />
+                <Button variant="outline-secondary">Search</Button>
+              </Form>
+            </div>
           </Col>
         </Row>
       </Container>
